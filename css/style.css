@@ -1,0 +1,141 @@
+/* font-family: 'Cormorant Unicase', serif;
+font-family: 'Cousine', monospace; */
+
+:root {
+  --basicColor: rgb(255, 255, 255);
+  --lighterBasicColor: rgb(187, 187, 187);
+  --darkerBasicColor: black;
+  --secondaryBasicColor: #db1818;
+  --globalBackground: #1c1c28;
+  --secondaryBackground: #252537;
+  --tertiaryBackground: white;
+  --quaternaryBackground: rgb(211, 211, 211);
+  --inputBorder: black;
+  --boxShadow: black;
+  --buttonColor: white;
+  --buttonHoverColor: rgb(24, 94, 97);
+  --details: rgb(250, 208, 22);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  text-decoration: none;
+
+  border: none;
+
+  scroll-behavior: smooth;
+
+  color: var(--basicColor);
+}
+
+h1 {
+  font-family: Cormorant Unicase;
+  font-size: 128px;
+  letter-spacing: 38.4px;
+}
+
+p {
+  font-family: "Cousine", monospace;
+  font-size: 15px;
+  letter-spacing: 4.5px;
+  margin: 0;
+}
+
+a {
+  color: white;
+  transition: 0.4s;
+}
+a:hover {
+  opacity: 0.5;
+}
+
+.transparent-background {
+  position: relative;
+}
+
+.transparent-background img {
+  width: 100%;
+}
+
+.header-and-main-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Cormorant Unicase", serif;
+}
+
+.row {
+  margin: 0;
+}
+
+/* .container {
+  
+} */
+
+/* Navigation bar */
+#nav-container nav {
+  padding: 50px 40px;
+}
+
+#nav-container nav a {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 6px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 0.8rem;
+}
+
+#nav-menu {
+  color: white;
+}
+
+#nav-menu {
+  border: 1px solid white;
+}
+
+#nav-menu .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Main */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 400px;
+  margin-top: 70px;
+}
+
+.about__text a {
+  font-family: Cousine;
+  font-size: 15px;
+  letter-spacing: 4.5px;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 50px;
+  }
+  #navbar-links {
+    margin-top: 10px;
+  }
+  #navbar-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1225px) {
+}
