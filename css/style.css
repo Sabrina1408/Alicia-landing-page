@@ -5,8 +5,8 @@ font-family: 'Cousine', monospace; */
   --basicColor: rgb(255, 255, 255);
   --lighterBasicColor: rgb(187, 187, 187);
   --darkerBasicColor: black;
-  --secondaryBasicColor: #db1818;
-  --globalBackground: #1c1c28;
+  --secondaryBasicColor: #6D6D6D;
+  --globalBackground: #5c5b5a;
   --secondaryBackground: #252537;
   --tertiaryBackground: white;
   --quaternaryBackground: rgb(211, 211, 211);
@@ -31,6 +31,10 @@ font-family: 'Cousine', monospace; */
   scroll-behavior: smooth;
 
   color: var(--basicColor);
+}
+
+body {
+  background-color: var(--globalBackground);
 }
 
 h1 {
@@ -121,6 +125,48 @@ main {
   letter-spacing: 4.5px;
 }
 
+/* Card */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: var(--basicColor);
+  color: var(--darkerBasicColor);
+  padding: 5% 10%;
+}
+
+.three-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.card {
+  width: 18.75rem;
+  border: none;
+  border-radius: 0;
+}
+
+footer {
+  background-color: var(--secondaryBasicColor);
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding: 30px 50px;
+}
+
+@media (max-width: 420px) {
+  .about {
+    justify-content: center;
+    gap: 20px;
+  }
+  .about__text {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+}
+
 @media (max-width: 770px) {
   h1 {
     text-align: center;
@@ -147,5 +193,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1225px) {
+  main {
+    padding-left: 50px!important;
   }
 }
