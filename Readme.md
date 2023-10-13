@@ -3,7 +3,7 @@
 <h2>🎯 Links</h2>
 <ul>
   <li>
-    <a href="#" target="_blank">Link do site</a>
+    <a href="https://sabrina1408.github.io/Alicia-landing-page/" target="_blank">Link do site</a>
   </li>
   <li>
     <a href="https://www.youtube.com/watch?v=oRVBoGpgtu0&list=PLx4x_zx8csUgop9qBqm6ReuNa3XraZBrc&ab_channel=CFBCursos" target="_blank">Link do curso</a>
