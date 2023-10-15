@@ -45,6 +45,7 @@ h1 {
 
 h2 {
   color: var(--darkerBasicColor);
+  margin: 0;
 }
 
 p {
@@ -133,10 +134,10 @@ main {
 .cards-container {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 40px;
   background-color: var(--basicColor);
   color: var(--darkerBasicColor);
-  padding: 5% 10%;
+  padding: 40px 10%;
 }
 
 .three-cards {
@@ -165,6 +166,9 @@ footer {
 }
 
 @media (max-width: 420px) {
+  h1 {
+    font-size: 30px;
+  }
   .about {
     justify-content: center;
     gap: 20px;
@@ -194,7 +198,7 @@ footer {
 
 @media (max-width: 991px) {
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   #navbar-links {
     margin-top: 10px;
