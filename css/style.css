@@ -155,6 +155,8 @@ main {
 .card img {
   border: none;
   border-radius: 0;
+  
+  object-fit: cover;
 }
 
 footer {

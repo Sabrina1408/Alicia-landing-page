@@ -1,3 +1,4 @@
+![sabrina1408 github io_Alicia-landing-page_](https://github.com/Sabrina1408/Alicia-landing-page/assets/88604193/8d4db0b6-0d1d-4641-a388-e8d4f56a1ac7)
 <h1>👩🏽‍💻 Alicia - Portfolio</h1>
 <p>Este projeto consiste em um portfolio feito em Bootstrap.</p>
 <h2>🎯 Links</h2>
