@@ -152,11 +152,15 @@ main {
   border-radius: 0;
 }
 
+.card a {
+  height: 100%;
+}
+
 .card img {
   border: none;
   border-radius: 0;
-  
   object-fit: cover;
+  height: 100%;
 }
 
 footer {
